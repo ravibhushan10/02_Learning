@@ -16,3 +16,5 @@ ls -lah -> combined
 <!-- ********************** -->
 git log  -> shows the full history of commit
 git log --online -> shows the one line commit history
+
+<!-- ************** -->
