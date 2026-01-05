@@ -8,7 +8,7 @@ It has three mode :
 (hard also delete the all commit between your starting and actual commit id you want to go )
 
 1: hard (it delete the commit history and also delete from the working directory and staging area)
-git reset --hard "commit id" -> where you want to point the head(you want to reach)
+git reset --hard "commit id" -> where you want to point the head(you want to reach) jaha aapko jana hai.
 
 2: soft (delete commit history, present in working directory, present in staging area)
 git reset --soft "commit id"
@@ -28,3 +28,4 @@ git reset --hard "commit id"
 
 <!-- ********When your code pushed to remote (revert)******!-->
 If you pushed the code into the github then use this :revert
+git revert "commit id" -> jis commit ko revert karna hai uska commit id.
