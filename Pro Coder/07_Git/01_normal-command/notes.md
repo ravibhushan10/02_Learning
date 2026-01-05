@@ -10,3 +10,7 @@ git status -s -> short form description
 <!-- *************** -->
 
 <!-- Go to previous version of code -->
+git checkout <commit hash> -> you reach to the code looks like that time(still your current code not affected you will be able to return to main branch ,by "git checkout main")
+-> it is just used to see the old code like (old photo)
+
+<!-- *************** -->
