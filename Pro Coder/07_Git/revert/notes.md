@@ -20,5 +20,19 @@ git reset --mixed "commit id"  (both are same)
 
 
 <!-- ********When your code pushed to remote (revert)******!-->
+Revert: it create the new commit with modified version keeping the old commit.
+
 If you pushed the code into the github then use this :revert
 git revert "commit id" -> jis commit ko revert karna hai uska commit id.
+
+<!-- ******************** -->
+you can revert one by one each commit or use the range query
+git revert head~3..head~0   -> here 3 is not included all 0-2 commits are reverted and created  three new commit for each one.
+
+<!-- ************************** -->
+If you want to summarize the all range revert into the single commit then:
+git revert --no-commit head~3..head~0  -> all three changes put into the staging area
+
+then you have two option: abort and continue
+git revert --abort -> if you want all things are normal don't want any change
+git revert --continue  -> all three revert done and created one single commit 
