@@ -4,6 +4,10 @@ If you want to pick some (only specific work) form the another branch then you h
 Then here we used the cherry picking
 git cherry-pick "commit id"
 
+
+<!-- *************** Gitignore file ************ -->
+it is used to , escape the tracking system from git for any files.
+
 <!-- ******** Two command in one time ********** -->
 git commit -m "message" && git push -> it do the commit and push the code into the github also.
 
