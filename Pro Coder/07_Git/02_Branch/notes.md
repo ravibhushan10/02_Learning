@@ -14,4 +14,7 @@ git log --oneline
 git log --all --oneline
 <!-- *************** -->
 when you merge the any branch then it automatically create a commit and merged
+
+
 <!-- *************** -->
+git push origin --delete "branch name" -> Delete the remote branch
