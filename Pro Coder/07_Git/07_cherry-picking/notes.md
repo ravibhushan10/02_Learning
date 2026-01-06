@@ -1,0 +1,3 @@
+If you want to merge some (only specific work) form the another branch then you have to pick some changes...
+
+Then here we used the cherry picking 
